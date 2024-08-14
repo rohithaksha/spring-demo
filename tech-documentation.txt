@@ -138,4 +138,79 @@ Gemini Response:
 By following this structure and incorporating best practices, you can create a comprehensive and informative technical documentation that effectively supports developers working on the project.
  
 **Would you like to focus on a specific section first?**
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+WhatsApp Response:
 
+Here's a suggested structure for your technical documentation:
+
+Title: Trunk-Based Development Score Application Documentation
+
+Introduction:
+
+- Overview of the application
+- Purpose and scope
+- Target audience (developers)
+
+Architecture:
+
+- High-level system architecture diagram
+- Components:
+    - Frontend Service (ReactJS)
+    - Backend Service (Python REST)
+    - OpenShift deployment
+- Inter-service communication (API calls)
+
+Frontend Service:
+
+- Overview
+- Technology Stack (ReactJS, libraries, etc.)
+- Features:
+    - Source code repository input
+    - Score display
+    - API calls to Backend Service
+- Code organization and structure
+- Configuration and environment variables
+
+Backend Service:
+
+- Overview
+- Technology Stack (Python, libraries, etc.)
+- Features:
+    - API endpoint for score calculation
+    - BitBucket API integration
+    - Commit history analysis
+    - Score calculation logic
+- Code organization and structure
+- Configuration and environment variables
+
+API Documentation:
+
+- Backend Service API endpoints:
+    - Request/response formats
+    - Parameters
+    - Error handling
+- Frontend-Backend API communication examples
+
+Deployment:
+
+- OpenShift deployment configuration
+- Environment variables and settings
+- Scaling and monitoring considerations
+
+Development Guidelines:
+
+- Code style and conventions
+- Testing and debugging procedures
+- Contribution guidelines (for future developers)
+
+Troubleshooting:
+
+- Common issues and solutions
+- Error logs and debugging tips
+
+Appendices:
+
+- Glossary of terms
+- References (BitBucket API documentation, etc.)
+
+This structure should provide a comprehensive overview of your application, covering both frontend and backend services, architecture, deployment, and development guidelines. Remember to include code snippets, diagrams, and examples to illustrate complex concepts and make the documentation more engaging and helpful for developers. Good luck with your documentation!
